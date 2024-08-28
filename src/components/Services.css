@@ -1,0 +1,59 @@
+.services{
+    background-image: linear-gradient(rgba(17, 1, 1, 0.638), rgba(0, 0, 0, 0.733)), url(https://img1.goodfon.com/wallpaper/nbig/2/27/gorod-fotoaparat-razmytost.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 115vh;
+    width: 100%;
+}
+.serv-head{
+    color: white;
+    padding: 5rem;
+    font-size: 4rem;
+}
+.service-container {
+    margin-top: -100px;
+    margin-left: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .service-item {
+    padding: 2rem;
+    width: 40%; 
+    margin-bottom: 30px; 
+    box-sizing: border-box;
+    color: white;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+  }
+  
+ .service-item:hover{
+  transform: translateY(-25px); 
+
+ }
+  .service-item h1{
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .services{
+      height: 220vh;
+    }
+    .service-container{
+      margin-left: 2rem;
+      margin-top: 10px;
+      margin-left: 2px;
+    }
+    .service-item {
+      width: 85vw; 
+      margin-bottom: 35px;
+      
+    }
+  }
+  
